@@ -22,7 +22,7 @@ const UserForm = () => {
         setFormErrors(validate(FormData));
         setIsSubmit(true);
 
-      const response = await fetch('https://backend-losu.onrender.com/api/submitUser', {
+      const response = await fetch('https://back-om7b.onrender.com/api/submitUser', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
